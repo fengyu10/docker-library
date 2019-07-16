@@ -2,6 +2,9 @@
 
 kubernetes 相关 images 同步
 
+# 2019.07.16
+* 添加gcr.io/kubeflow-images-public/tensorflow-1.12.0-notebook-cpu:v0.5.0镜像
+
 # 2018.1.2017
 
 * 新增监控组件heapster v1.5.0
