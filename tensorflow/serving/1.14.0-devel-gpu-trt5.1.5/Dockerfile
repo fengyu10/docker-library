@@ -65,7 +65,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # to retrieve that list before it can actually install the library.
 RUN apt-get update && \
     apt-get install --no-install-recommends \
-        nvinfer-runtime-trt-repo-ubuntu1604-${TF_TENSORRT_VERSION}-ga-cuda10.0 && \
+        nvinfer-runtime-trt-repo-ubuntu1604-5.0.2-ga-cuda10.0 && \
     apt-get update && \
     apt-get install --no-install-recommends \
         libnvinfer5=${TF_TENSORRT_VERSION}-1+cuda10.0 \
